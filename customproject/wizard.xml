@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wizard version="1" kind="project"
+        class="qt4project" firstpage="10"
+        id="A.CustomProject" category="B.CustomProjects">
+    <icon>console.png</icon>
+    <description>Creates a custom project</description>
+    <displayname>Custom Project</displayname>;
+    <displaycategory>Custom Projects</displaycategory>
+    <files>
+        <file source="main.cpp" openeditor="true"/>
+        <file source="project.pro" target="%ProjectName%.pro" openproject="true"/>
+    </files>
+</wizard>
